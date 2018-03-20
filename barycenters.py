@@ -1,5 +1,5 @@
 '''
-    File name: barycenters2.py
+    File name: barycenters.py
     Author: Natalia Villegas Franco
     Date created: 9/30/2017
     Date last modified: 1/28/2018
@@ -311,7 +311,8 @@ prints('Elapsed time: '+str(t_final-t_new)+'s\n')
 
 prints('Solving the model using AMPL...')
 ## Execute AMPL through barycenters.run using barycenters.mod and the new barycenters.dat
-command="ampl barycenters2.run"
+#command="ampl barycenters.run"
+command="ampl fixed_transport.run"
 process=subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 out=process.communicate()
 
