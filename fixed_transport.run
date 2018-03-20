@@ -2,7 +2,7 @@
 reset;
 
 #LOAD THE MODEL
-model barycenters2.mod;
+model fixed_transport.mod;
 data barycenters.dat;
 
 #CHANGE THE SOLVER 
