@@ -1,0 +1,17 @@
+#RESET THE AMPL ENVIROMENT
+reset;
+
+#LOAD THE MODEL
+model barycenters2.mod;
+data barycenters.dat;
+
+#CHANGE THE SOLVER 
+option solver cplex;
+
+#SOLVE
+solve;
+
+#SAVE DATA
+printf { j in 1..SO } 
+      "%s,%.5f\n" , 
+         j , w[j] > ./output.csv ;
