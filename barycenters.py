@@ -27,7 +27,7 @@ t_init = time()
 y1=2016
 y2=2016
 m1=1
-m2=12
+m2=6
 # - Set the method.
 method='exact'
 #method='2aprox'
