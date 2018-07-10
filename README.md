@@ -47,4 +47,8 @@ https://ampl.com/
 
 barycenters.py
 
+#Output:
+
+Visualization of results using Google maps
+
 
