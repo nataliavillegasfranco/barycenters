@@ -45,7 +45,7 @@ https://ampl.com/
 
 *Run:
 
-barycenters.py
+python barycenters.py
 
 # Output:
 
